@@ -6,7 +6,7 @@ const SideNav = () => {
     const {isOpen, setIsOpen, toggleNavbar} = useMadeContext();
   return (
     <>
-      <Drawer className='bg-pink-200' open={isOpen} onClose={toggleNavbar}>
+      <Drawer className='bg-pink-200 dark:bg-pink-200' open={isOpen} onClose={toggleNavbar}>
         <DrawerHeader title="MENU" titleIcon={() => <></>} />
         <DrawerItems>
           <Sidebar
@@ -20,8 +20,8 @@ const SideNav = () => {
                     <SidebarItem href="/will-you" icon={HiChartPie}>
                       Will You...?
                     </SidebarItem>
-                    <SidebarItem href="/e-commerce/products" icon={HiShoppingBag}>
-                      Coming Soon...
+                    <SidebarItem href="/presentation" icon={HiShoppingBag}>
+                      Presentation
                     </SidebarItem>
                   </SidebarItemGroup>
                 </SidebarItems>

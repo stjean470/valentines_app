@@ -31,7 +31,7 @@ const WillYou = () => {
                 height: '100vh'
             }}>
             
-            <Card className='bg-pink-200/80 border-2 border-red-400 flex flex-col justify-center items-center'>
+            <Card className='bg-pink-200/80 dark:bg-pink-200/80 border-2 border-red-400 flex flex-col justify-center items-center'>
                 <h2 className='md:text-3xl sm:text-2xl text-xl font-bold mb-4 text-center'>Will You Be My Valentine?</h2>
                 <form className='flex justify-around'>
                     <div>
